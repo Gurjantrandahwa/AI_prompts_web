@@ -6,20 +6,18 @@ export const metadata = {
     description: "Discover and share the AI Prompts"
 }
 const Layout = ({children}) => {
-    return (
-        <html lang="en">
-        <body>
-        <div className={"main"}>
-            <div className={"gradient"}/>
-        </div>
-        <main className={"app"}>
+    return         <html lang="en">
+    <body>
+    <div className={"main"}>
+        <div className={"gradient"}/>
+    </div>
 
-            <Nav/>
-            {children}
-        </main>
-        </body>
-        </html>
-    )
-};
+    <main className={"app"}>
+        <Nav/>
+        {children}
+    </main>
+    </body>
+    </html>
+}
 
 export default Layout;
