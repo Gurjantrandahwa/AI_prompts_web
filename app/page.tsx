@@ -14,7 +14,6 @@ const Home = () => {
             It is a open AI prompting tool for modern world to discover,
             create and share prompts.
         </p>
-
     {/*Components*/}
         <Feed/>
     </section>
