@@ -28,7 +28,7 @@ const EditPrompt = () => {
     }, [promptId]);
 
 
-    const updatePrompt = async (e) => {
+    const updatePrompt = async (e):any => {
         e.preventDefault();
         setIsSubmitting(true);
         if (!promptId) return alert("Prompt ID not found");
